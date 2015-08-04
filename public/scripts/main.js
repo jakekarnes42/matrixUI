@@ -1,6 +1,12 @@
+var DisplayImage = React.createClass({
+  render: function() {
+    return (
+      <img src={'images/fry.png'} className="displayImage"/>
+      );
+  }
+});
+
 var MatrixGrid = React.createClass({
-
-
   componentDidMount: function(){
      var context = React.findDOMNode(this.refs.canvas).getContext("2d");
      context.moveTo(0,0);
@@ -18,9 +24,6 @@ var MatrixGrid = React.createClass({
       context.lineTo(this.props.size,cell_size * i);
       context.stroke();
      };
-
-
-
   },
 
   render: function() {
@@ -32,7 +35,18 @@ var MatrixGrid = React.createClass({
   }
 });
 
+var App = React.createClass({
+  render: function() {
+    return (
+      <div>
+      <MatrixGrid size={480} />
+      <DisplayImage />
+      </div>
+      );
+  }
+});
+
 React.render(
-  <MatrixGrid size={480} />,
+  <App />,
   document.getElementById('content')
 );
