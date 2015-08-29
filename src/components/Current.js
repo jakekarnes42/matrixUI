@@ -1,3 +1,5 @@
+var React = require('react');
+
 var DisplayImage = React.createClass({
   render: function() {
     return (
@@ -35,18 +37,15 @@ var MatrixGrid = React.createClass({
   }
 });
 
-var App = React.createClass({
-  render: function() {
-    return (
-      <div>
-      <MatrixGrid size={480} />
-      <DisplayImage />
-      </div>
-      );
-  }
-});
+class Current extends React.Component {
+	render() {
+		return (
+			<div>
+      			<MatrixGrid size={480} />
+     			<DisplayImage />
+      		</div>
+		);
+	}
+}
 
-React.render(
-  <App />,
-  document.getElementById('content')
-);
+export default Current;
