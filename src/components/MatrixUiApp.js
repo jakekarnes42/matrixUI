@@ -19,10 +19,10 @@ class MatrixUiApp extends React.Component {
 						<li><Link to="current">Current</Link></li>
 						<li><Link to="browse">Browse</Link></li>
 						<li><Link to="textSetter">Text</Link></li>
-					</ul> 
+					</ul>
 				</header>
 
-        		<RouteHandler/>
+				<RouteHandler/>
 			</div>
 		);
 	}
