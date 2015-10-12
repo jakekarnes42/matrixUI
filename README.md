@@ -3,9 +3,11 @@ The web server for setting the LED matrix.
 
 ## Technologies
 1. NodeJS
-2. Express
+2. MongoDB
 3. ReactJS
-4. Webpack
+4. Express
+5. Mongoose
+6. Webpack
 
 ## How To
 Start the server by executing `npm start` and navigating to [http://localhost:3000/](http://localhost:3000/).
