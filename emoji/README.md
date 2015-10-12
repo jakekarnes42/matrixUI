@@ -1,7 +1,7 @@
 #Emoji helpers
 The purpose of this directory and its file is work with emojis.
 
-The emojis we'll be working with are the Unicode standard as described here: (http://unicode.org/emoji/charts/full-emoji-list.html)[http://unicode.org/emoji/charts/full-emoji-list.html].
+The emojis we'll be working with are the Unicode standard as described here: [http://unicode.org/emoji/charts/full-emoji-list.html](http://unicode.org/emoji/charts/full-emoji-list.html).
 
 ##Data collection process
 1. Scrape HTML
