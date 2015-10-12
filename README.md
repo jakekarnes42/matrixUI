@@ -9,3 +9,7 @@ The web server for setting the LED matrix.
 
 ## How To
 Start the server by executing `npm start` and navigating to [http://localhost:3000/](http://localhost:3000/).
+
+
+###Notes
+CSS and other layout considerations found here: http://maxdesign.com.au/jobs/css-layouts/11-example-layout-one-full/
